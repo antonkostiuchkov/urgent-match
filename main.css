@@ -576,7 +576,7 @@ header, footer {
 
 /* line 1, C:/Users/u0168790/Code/sandbox/um-work/assets/css/3-modules/header */
 header {
-  background-image: url(/assets/img/logo.svg), url(/assets/img/bg.jpg); }
+  background-image: url(assets/img/logo.svg), url(assets/img/bg.jpg); }
   /* line 5, C:/Users/u0168790/Code/sandbox/um-work/assets/css/3-modules/header */
   header .fa {
     position: fixed;
@@ -668,7 +668,7 @@ header {
   /* line 8, C:/Users/u0168790/Code/sandbox/um-work/assets/css/3-modules/about */
   .face-lockup .face-img {
     border-radius: 50%;
-    background-image: url(/assets/img/face1.jpg);
+    background-image: url(assets/img/face1.jpg);
     height: 200px;
     width: 200px;
     box-ordinal-group: 3;
@@ -928,7 +928,7 @@ form {
 
 /* line 1, C:/Users/u0168790/Code/sandbox/um-work/assets/css/3-modules/footer */
 footer {
-  background-image: url(/assets/img/logo.svg), url(/assets/img/bg.jpg); }
+  background-image: url(assets/img/logo.svg), url(assets/img/bg.jpg); }
   /* line 5, C:/Users/u0168790/Code/sandbox/um-work/assets/css/3-modules/footer */
   footer .lockup {
     padding: 30px 30px; }
