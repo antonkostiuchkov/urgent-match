@@ -1,0 +1,982 @@
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+body {
+  margin: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+[hidden], template {
+  display: none; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+a {
+  background: 0 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+b, strong {
+  font-weight: 700; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+dfn {
+  font-style: italic; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+small {
+  font-size: 80%; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+img {
+  border: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+figure {
+  margin: 1em 40px; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+pre {
+  overflow: auto; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button {
+  overflow: visible; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button, select {
+  text-transform: none; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+input {
+  line-height: normal; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+textarea {
+  overflow: auto; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+optgroup {
+  font-weight: 700; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, /home/anton/code/um-work/assets/css/1-tools/normalize */
+td, th {
+  padding: 0; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff'); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff'); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff'); }
+
+/* line 3, /home/anton/code/um-work/assets/css/1-tools/animations */
+.thumb-container .thumb-unit:hover .thumb-overlay {
+  -webkit-animation: animation 750ms linear both;
+  animation: animation 750ms linear both; }
+
+/* Generated with Bounce.js. Edit at http://goo.gl/MMDwjm */
+@-webkit-keyframes animation {
+  /* line 11, /home/anton/code/um-work/assets/css/1-tools/animations */
+  0% {
+    -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 12, /home/anton/code/um-work/assets/css/1-tools/animations */
+  4.347826% {
+    -webkit-transform: matrix3d(0.44443, 0.14748, 0, 0, 0.0964, 0.44443, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.44443, 0.14748, 0, 0, 0.0964, 0.44443, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 13, /home/anton/code/um-work/assets/css/1-tools/animations */
+  8.695652% {
+    -webkit-transform: matrix3d(0.80549, 0.26909, 0, 0, 0.17585, 0.80549, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.80549, 0.26909, 0, 0, 0.17585, 0.80549, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 14, /home/anton/code/um-work/assets/css/1-tools/animations */
+  13.043478% {
+    -webkit-transform: matrix3d(1.01876, 0.22069, 0, 0, 0.14587, 1.01876, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.01876, 0.22069, 0, 0, 0.14587, 1.01876, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 15, /home/anton/code/um-work/assets/css/1-tools/animations */
+  17.391304% {
+    -webkit-transform: matrix3d(1.10308, 0.11388, 0, 0, 0.07577, 1.10308, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.10308, 0.11388, 0, 0, 0.07577, 1.10308, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 16, /home/anton/code/um-work/assets/css/1-tools/animations */
+  21.73913% {
+    -webkit-transform: matrix3d(1.10661, 0.0327, 0, 0, 0.0218, 1.10661, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.10661, 0.0327, 0, 0, 0.0218, 1.10661, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 17, /home/anton/code/um-work/assets/css/1-tools/animations */
+  26.086957% {
+    -webkit-transform: matrix3d(1.07487, -0.00639, 0, 0, -0.00426, 1.07487, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.07487, -0.00639, 0, 0, -0.00426, 1.07487, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 18, /home/anton/code/um-work/assets/css/1-tools/animations */
+  30.434783% {
+    -webkit-transform: matrix3d(1.03812, -0.01685, 0, 0, -0.01123, 1.03812, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.03812, -0.01685, 0, 0, -0.01123, 1.03812, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 19, /home/anton/code/um-work/assets/css/1-tools/animations */
+  34.782609% {
+    -webkit-transform: matrix3d(1.0107, -0.01442, 0, 0, -0.00961, 1.0107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.0107, -0.01442, 0, 0, -0.00961, 1.0107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 20, /home/anton/code/um-work/assets/css/1-tools/animations */
+  39.130435% {
+    -webkit-transform: matrix3d(0.99577, -0.00869, 0, 0, -0.00579, 0.99577, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99577, -0.00869, 0, 0, -0.00579, 0.99577, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 21, /home/anton/code/um-work/assets/css/1-tools/animations */
+  43.478261% {
+    -webkit-transform: matrix3d(0.99078, -0.0038, 0, 0, -0.00253, 0.99078, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99078, -0.0038, 0, 0, -0.00253, 0.99078, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 22, /home/anton/code/um-work/assets/css/1-tools/animations */
+  47.826087% {
+    -webkit-transform: matrix3d(0.99154, -0.00083, 0, 0, -0.00055, 0.99154, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99154, -0.00083, 0, 0, -0.00055, 0.99154, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 23, /home/anton/code/um-work/assets/css/1-tools/animations */
+  52.173913% {
+    -webkit-transform: matrix3d(0.9945, 0.00049, 0, 0, 0.00033, 0.9945, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.9945, 0.00049, 0, 0, 0.00033, 0.9945, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 24, /home/anton/code/um-work/assets/css/1-tools/animations */
+  56.521739% {
+    -webkit-transform: matrix3d(0.99747, 0.00078, 0, 0, 0.00052, 0.99747, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99747, 0.00078, 0, 0, 0.00052, 0.99747, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 25, /home/anton/code/um-work/assets/css/1-tools/animations */
+  60.869565% {
+    -webkit-transform: matrix3d(0.99951, 0.00062, 0, 0, 0.00041, 0.99951, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99951, 0.00062, 0, 0, 0.00041, 0.99951, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 26, /home/anton/code/um-work/assets/css/1-tools/animations */
+  65.217391% {
+    -webkit-transform: matrix3d(1.00053, 0.00035, 0, 0, 0.00023, 1.00053, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00053, 0.00035, 0, 0, 0.00023, 1.00053, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 27, /home/anton/code/um-work/assets/css/1-tools/animations */
+  69.565217% {
+    -webkit-transform: matrix3d(1.00079, 0.00014, 0, 0, 0.00009, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00079, 0.00014, 0, 0, 0.00009, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 28, /home/anton/code/um-work/assets/css/1-tools/animations */
+  73.913043% {
+    -webkit-transform: matrix3d(1.00066, 0.00002, 0, 0, 0.00001, 1.00066, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00066, 0.00002, 0, 0, 0.00001, 1.00066, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 29, /home/anton/code/um-work/assets/css/1-tools/animations */
+  78.26087% {
+    -webkit-transform: matrix3d(1.0004, -0.00003, 0, 0, -0.00002, 1.0004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.0004, -0.00003, 0, 0, -0.00002, 1.0004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 30, /home/anton/code/um-work/assets/css/1-tools/animations */
+  82.608696% {
+    -webkit-transform: matrix3d(1.00016, -0.00004, 0, 0, -0.00002, 1.00016, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00016, -0.00004, 0, 0, -0.00002, 1.00016, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 31, /home/anton/code/um-work/assets/css/1-tools/animations */
+  86.956522% {
+    -webkit-transform: matrix3d(1.00001, -0.00003, 0, 0, -0.00002, 1.00001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00001, -0.00003, 0, 0, -0.00002, 1.00001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 32, /home/anton/code/um-work/assets/css/1-tools/animations */
+  91.304348% {
+    -webkit-transform: matrix3d(0.99995, -0.00001, 0, 0, -0.00001, 0.99995, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99995, -0.00001, 0, 0, -0.00001, 0.99995, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 33, /home/anton/code/um-work/assets/css/1-tools/animations */
+  95.652174% {
+    -webkit-transform: matrix3d(0.99993, 0, 0, 0, 0, 0.99993, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99993, 0, 0, 0, 0, 0.99993, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 34, /home/anton/code/um-work/assets/css/1-tools/animations */
+  100% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+@keyframes animation {
+  /* line 38, /home/anton/code/um-work/assets/css/1-tools/animations */
+  0% {
+    -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 39, /home/anton/code/um-work/assets/css/1-tools/animations */
+  4.347826% {
+    -webkit-transform: matrix3d(0.44443, 0.14748, 0, 0, 0.0964, 0.44443, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.44443, 0.14748, 0, 0, 0.0964, 0.44443, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 40, /home/anton/code/um-work/assets/css/1-tools/animations */
+  8.695652% {
+    -webkit-transform: matrix3d(0.80549, 0.26909, 0, 0, 0.17585, 0.80549, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.80549, 0.26909, 0, 0, 0.17585, 0.80549, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 41, /home/anton/code/um-work/assets/css/1-tools/animations */
+  13.043478% {
+    -webkit-transform: matrix3d(1.01876, 0.22069, 0, 0, 0.14587, 1.01876, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.01876, 0.22069, 0, 0, 0.14587, 1.01876, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 42, /home/anton/code/um-work/assets/css/1-tools/animations */
+  17.391304% {
+    -webkit-transform: matrix3d(1.10308, 0.11388, 0, 0, 0.07577, 1.10308, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.10308, 0.11388, 0, 0, 0.07577, 1.10308, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 43, /home/anton/code/um-work/assets/css/1-tools/animations */
+  21.73913% {
+    -webkit-transform: matrix3d(1.10661, 0.0327, 0, 0, 0.0218, 1.10661, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.10661, 0.0327, 0, 0, 0.0218, 1.10661, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 44, /home/anton/code/um-work/assets/css/1-tools/animations */
+  26.086957% {
+    -webkit-transform: matrix3d(1.07487, -0.00639, 0, 0, -0.00426, 1.07487, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.07487, -0.00639, 0, 0, -0.00426, 1.07487, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 45, /home/anton/code/um-work/assets/css/1-tools/animations */
+  30.434783% {
+    -webkit-transform: matrix3d(1.03812, -0.01685, 0, 0, -0.01123, 1.03812, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.03812, -0.01685, 0, 0, -0.01123, 1.03812, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 46, /home/anton/code/um-work/assets/css/1-tools/animations */
+  34.782609% {
+    -webkit-transform: matrix3d(1.0107, -0.01442, 0, 0, -0.00961, 1.0107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.0107, -0.01442, 0, 0, -0.00961, 1.0107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 47, /home/anton/code/um-work/assets/css/1-tools/animations */
+  39.130435% {
+    -webkit-transform: matrix3d(0.99577, -0.00869, 0, 0, -0.00579, 0.99577, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99577, -0.00869, 0, 0, -0.00579, 0.99577, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 48, /home/anton/code/um-work/assets/css/1-tools/animations */
+  43.478261% {
+    -webkit-transform: matrix3d(0.99078, -0.0038, 0, 0, -0.00253, 0.99078, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99078, -0.0038, 0, 0, -0.00253, 0.99078, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 49, /home/anton/code/um-work/assets/css/1-tools/animations */
+  47.826087% {
+    -webkit-transform: matrix3d(0.99154, -0.00083, 0, 0, -0.00055, 0.99154, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99154, -0.00083, 0, 0, -0.00055, 0.99154, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 50, /home/anton/code/um-work/assets/css/1-tools/animations */
+  52.173913% {
+    -webkit-transform: matrix3d(0.9945, 0.00049, 0, 0, 0.00033, 0.9945, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.9945, 0.00049, 0, 0, 0.00033, 0.9945, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 51, /home/anton/code/um-work/assets/css/1-tools/animations */
+  56.521739% {
+    -webkit-transform: matrix3d(0.99747, 0.00078, 0, 0, 0.00052, 0.99747, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99747, 0.00078, 0, 0, 0.00052, 0.99747, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 52, /home/anton/code/um-work/assets/css/1-tools/animations */
+  60.869565% {
+    -webkit-transform: matrix3d(0.99951, 0.00062, 0, 0, 0.00041, 0.99951, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99951, 0.00062, 0, 0, 0.00041, 0.99951, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 53, /home/anton/code/um-work/assets/css/1-tools/animations */
+  65.217391% {
+    -webkit-transform: matrix3d(1.00053, 0.00035, 0, 0, 0.00023, 1.00053, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00053, 0.00035, 0, 0, 0.00023, 1.00053, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 54, /home/anton/code/um-work/assets/css/1-tools/animations */
+  69.565217% {
+    -webkit-transform: matrix3d(1.00079, 0.00014, 0, 0, 0.00009, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00079, 0.00014, 0, 0, 0.00009, 1.00079, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 55, /home/anton/code/um-work/assets/css/1-tools/animations */
+  73.913043% {
+    -webkit-transform: matrix3d(1.00066, 0.00002, 0, 0, 0.00001, 1.00066, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00066, 0.00002, 0, 0, 0.00001, 1.00066, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 56, /home/anton/code/um-work/assets/css/1-tools/animations */
+  78.26087% {
+    -webkit-transform: matrix3d(1.0004, -0.00003, 0, 0, -0.00002, 1.0004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.0004, -0.00003, 0, 0, -0.00002, 1.0004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 57, /home/anton/code/um-work/assets/css/1-tools/animations */
+  82.608696% {
+    -webkit-transform: matrix3d(1.00016, -0.00004, 0, 0, -0.00002, 1.00016, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00016, -0.00004, 0, 0, -0.00002, 1.00016, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 58, /home/anton/code/um-work/assets/css/1-tools/animations */
+  86.956522% {
+    -webkit-transform: matrix3d(1.00001, -0.00003, 0, 0, -0.00002, 1.00001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1.00001, -0.00003, 0, 0, -0.00002, 1.00001, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 59, /home/anton/code/um-work/assets/css/1-tools/animations */
+  91.304348% {
+    -webkit-transform: matrix3d(0.99995, -0.00001, 0, 0, -0.00001, 0.99995, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99995, -0.00001, 0, 0, -0.00001, 0.99995, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 60, /home/anton/code/um-work/assets/css/1-tools/animations */
+  95.652174% {
+    -webkit-transform: matrix3d(0.99993, 0, 0, 0, 0, 0.99993, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(0.99993, 0, 0, 0, 0, 0.99993, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+  /* line 61, /home/anton/code/um-work/assets/css/1-tools/animations */
+  100% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+/* line 3, /home/anton/code/um-work/assets/css/2-base/base */
+.gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6 {
+  color: #0E183B;
+  font-weight: bold; }
+
+/* line 7, /home/anton/code/um-work/assets/css/2-base/base */
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px; }
+
+/* line 12, /home/anton/code/um-work/assets/css/2-base/base */
+.huge, h1 {
+  font-size: 68px;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin: 0; }
+
+/* line 18, /home/anton/code/um-work/assets/css/2-base/base */
+.large, h2 {
+  font-size: 42px;
+  line-height: 1.14; }
+
+/* line 22, /home/anton/code/um-work/assets/css/2-base/base */
+.bigger, h3 {
+  font-size: 26px;
+  line-height: 1.38; }
+
+/* line 26, /home/anton/code/um-work/assets/css/2-base/base */
+.big, h4 {
+  font-size: 22px;
+  line-height: 1.38; }
+
+/* line 30, /home/anton/code/um-work/assets/css/2-base/base */
+.small, small {
+  font-size: 10px;
+  line-height: 1.2; }
+
+/* line 36, /home/anton/code/um-work/assets/css/2-base/base */
+p {
+  margin: 0 0 20px 0; }
+
+/* line 39, /home/anton/code/um-work/assets/css/2-base/base */
+em {
+  font-style: italic; }
+
+/* line 42, /home/anton/code/um-work/assets/css/2-base/base */
+strong {
+  font-weight: bold; }
+
+/* line 45, /home/anton/code/um-work/assets/css/2-base/base */
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+
+/* line 55, /home/anton/code/um-work/assets/css/2-base/base */
+a {
+  color: #6E8DA5;
+  text-decoration: none;
+  outline: 0; }
+
+/* line 65, /home/anton/code/um-work/assets/css/2-base/base */
+::-moz-selection {
+  background: #FFF498; }
+::selection {
+  background: #FFF498; }
+
+/* line 68, /home/anton/code/um-work/assets/css/2-base/base */
+::-moz-selection {
+  background: #FFF498; }
+
+/* line 71, /home/anton/code/um-work/assets/css/2-base/base */
+img::-moz-selection {
+  background: transparent; }
+img::selection {
+  background: transparent; }
+
+/* line 74, /home/anton/code/um-work/assets/css/2-base/base */
+img::-moz-selection {
+  background: transparent; }
+
+/* line 77, /home/anton/code/um-work/assets/css/2-base/base */
+body {
+  -webkit-tap-highlight-color: #FFF498; }
+
+/* line 83, /home/anton/code/um-work/assets/css/2-base/base */
+body {
+  background: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Open Sans' sans-serif;
+  color: #2E2D33;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 93, /home/anton/code/um-work/assets/css/2-base/base */
+h3 {
+  color: #0E183B;
+  text-align: center;
+  padding: 72px 0 72px; }
+
+/* line 99, /home/anton/code/um-work/assets/css/2-base/base */
+.section-title {
+  font-size: 32px;
+  text-transform: none;
+  letter-spacing: -2.1px;
+  margin: 0; }
+
+@media screen and (max-width: 480px) {
+  /* line 106, /home/anton/code/um-work/assets/css/2-base/base */
+  h3 {
+    padding: 50px 0 50px; }
+ }
+
+/* line 1, /home/anton/code/um-work/assets/css/2-base/placeholders */
+h3, header .main-navigation ul li a, header .kicker, footer .lockup .content-wrap a {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+/* line 7, /home/anton/code/um-work/assets/css/2-base/placeholders */
+header, footer {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 30px, 50% 10%;
+  background-blend-mode: overlay, normal; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/header */
+header {
+  background-image: url(/assets/img/logo.svg), url(../img/bg.jpg);
+  padding-bottom: 60px; }
+  /* line 6, /home/anton/code/um-work/assets/css/3-modules/header */
+  header .fa {
+    position: fixed;
+    top: 15px;
+    right: 60px;
+    color: #6E8DA5;
+    cursor: pointer; }
+  /* line 14, /home/anton/code/um-work/assets/css/3-modules/header */
+  header .main-navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0D081F;
+    text-align: center;
+    z-index: 1000;
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease; }
+    /* line 25, /home/anton/code/um-work/assets/css/3-modules/header */
+    header .main-navigation ul {
+      margin: 0;
+      padding: 0; }
+      /* line 29, /home/anton/code/um-work/assets/css/3-modules/header */
+      header .main-navigation ul li {
+        list-style: none; }
+        /* line 32, /home/anton/code/um-work/assets/css/3-modules/header */
+        header .main-navigation ul li a {
+          display: inline-block;
+          padding: 20px 20px;
+          color: rgba(255, 255, 255, 0.8); }
+          /* line 40, /home/anton/code/um-work/assets/css/3-modules/header */
+          header .main-navigation ul li a:hover {
+            color: white; }
+  /* line 43, /home/anton/code/um-work/assets/css/3-modules/header */
+  header .main-navigation.open {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0); }
+  /* line 46, /home/anton/code/um-work/assets/css/3-modules/header */
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    clear: both;
+    padding-top: 130px; }
+    /* line 59, /home/anton/code/um-work/assets/css/3-modules/header */
+    header h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
+  /* line 64, /home/anton/code/um-work/assets/css/3-modules/header */
+  header .kicker {
+    text-align: center;
+    letter-spacing: 0.22em;
+    color: white;
+    line-height: 1.5;
+    margin: 0;
+    text-shadow: 2px 2px 0.5px #0E183B; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/about */
+.face-lockup {
+  max-width: 780px;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: justify; }
+  /* line 8, /home/anton/code/um-work/assets/css/3-modules/about */
+  .face-lockup .face-img {
+    border-radius: 50%;
+    background-image: url(../img/face1.jpg);
+    height: 200px;
+    width: 200px;
+    box-ordinal-group: 3;
+    -webkit-order: 3;
+    -moz-order: 3;
+    order: 3;
+    -ms-flex-order: 3; }
+  /* line 14, /home/anton/code/um-work/assets/css/3-modules/about */
+  .face-lockup [class^="icon-"] {
+    height: 100px;
+    width: 100px;
+    background: #e5eaee;
+    border-radius: 50%; }
+    /* line 19, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"] path {
+      fill: #6E8DA5; }
+    /* line 22, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"].icon-pencil {
+      box-ordinal-group: 1;
+      -webkit-order: 1;
+      -moz-order: 1;
+      order: 1;
+      -ms-flex-order: 1; }
+    /* line 24, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"].icon-mouse {
+      box-ordinal-group: 2;
+      -webkit-order: 2;
+      -moz-order: 2;
+      order: 2;
+      -ms-flex-order: 2; }
+    /* line 26, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"].icon-browser {
+      box-ordinal-group: 4;
+      -webkit-order: 4;
+      -moz-order: 4;
+      order: 4;
+      -ms-flex-order: 4; }
+    /* line 28, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"].icon-video {
+      box-ordinal-group: 5;
+      -webkit-order: 5;
+      -moz-order: 5;
+      order: 5;
+      -ms-flex-order: 5; }
+
+@media screen and (max-width: 650px) {
+  /* line 33, /home/anton/code/um-work/assets/css/3-modules/about */
+  .face-lockup {
+    display: block;
+    text-align: center; }
+    /* line 37, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup div {
+      display: inline-block; }
+    /* line 40, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup .face-img {
+      display: block;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: auto;
+      margin-bottom: 30px;
+      border-radius: 50%; }
+    /* line 48, /home/anton/code/um-work/assets/css/3-modules/about */
+    .face-lockup [class^="icon-"] {
+      margin: 10px; }
+ }
+
+/* line 51, /home/anton/code/um-work/assets/css/3-modules/about */
+.blurb {
+  max-width: 620px;
+  padding: 0 15px;
+  margin: 50px auto 50px;
+  font-size: 24px;
+  text-align: justify;
+  font-weight: 300; }
+  /* line 59, /home/anton/code/um-work/assets/css/3-modules/about */
+  .blurb:nth-child(2) {
+    margin: 0px auto 50px; }
+
+/* line 63, /home/anton/code/um-work/assets/css/3-modules/about */
+.skill-lockup {
+  max-width: 700px;
+  margin: 100px auto;
+  color: #999; }
+  /* line 15, /home/anton/code/um-work/assets/css/1-tools/bourbon/addons/clearfix */
+  .skill-lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 70, /home/anton/code/um-work/assets/css/3-modules/about */
+  .skill-lockup .skill-unit {
+    width: 50%;
+    float: left;
+    padding-left: 70px;
+    box-sizing: border-box; }
+  /* line 78, /home/anton/code/um-work/assets/css/3-modules/about */
+  .skill-lockup .skill-icons {
+    font-size: 0;
+    margin: 0px 0 30px; }
+    /* line 83, /home/anton/code/um-work/assets/css/3-modules/about */
+    .skill-lockup .skill-icons span {
+      display: inline-block;
+      height: 14px;
+      width: 14px;
+      background-color: #0E183B;
+      margin-right: 5px;
+      border-radius: 50%; }
+      /* line 90, /home/anton/code/um-work/assets/css/3-modules/about */
+      .skill-lockup .skill-icons span:after {
+        content: '';
+        display: block;
+        height: 10px;
+        width: 10px;
+        background: #fff;
+        border-radius: 50%;
+        margin: 2px; }
+
+@media screen and (max-width: 541px) {
+  /* line 107, /home/anton/code/um-work/assets/css/3-modules/about */
+  .skill-lockup {
+    width: 270px; }
+ }
+
+/* line 112, /home/anton/code/um-work/assets/css/3-modules/about */
+.skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
+  background-color: #BDCDDA; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/brazil */
+.alt-section {
+  background: #e5eaee;
+  padding-bottom: 50px; }
+
+/* line 5, /home/anton/code/um-work/assets/css/3-modules/brazil */
+.thumb-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 100px; }
+  /* line 15, /home/anton/code/um-work/assets/css/1-tools/bourbon/addons/clearfix */
+  .thumb-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 11, /home/anton/code/um-work/assets/css/3-modules/brazil */
+  .thumb-container .thumb-unit {
+    display: block;
+    width: 25%;
+    height: 87px;
+    float: left;
+    position: relative;
+    padding-top: 16%;
+    cursor: pointer;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-perspective: 300;
+    perspective: 300; }
+    @media screen and (max-width: 760px) {
+      .thumb-container .thumb-unit {
+        width: 50%;
+        padding-top: 26%; } }
+    /* line 31, /home/anton/code/um-work/assets/css/3-modules/brazil */
+    .thumb-container .thumb-unit .thumb-overlay {
+      position: absolute;
+      top: 0%;
+      right: 0px;
+      left: 0px;
+      height: 100%;
+      background: rgba(14, 24, 59, 0.9);
+      text-align: center;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      box-pack: center;
+      -webkit-justify-content: space-around;
+      -moz-justify-content: space-around;
+      -ms-justify-content: space-around;
+      -o-justify-content: space-around;
+      justify-content: space-around;
+      -ms-flex-pack: center;
+      opacity: 0;
+      transition: opacity, 300ms, ease-in, 500ms;
+      -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -ms-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+      /* line 45, /home/anton/code/um-work/assets/css/3-modules/brazil */
+      .thumb-container .thumb-unit .thumb-overlay strong {
+        display: block;
+        padding: 0 20px;
+        color: white;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 24px;
+        line-height: 1.72; }
+    /* line 54, /home/anton/code/um-work/assets/css/3-modules/brazil */
+    .thumb-container .thumb-unit:hover {
+      z-index: 2; }
+      /* line 58, /home/anton/code/um-work/assets/css/3-modules/brazil */
+      .thumb-container .thumb-unit:hover .thumb-overlay {
+        opacity: 1; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/form */
+form {
+  max-width: 450px;
+  margin: 0 auto 100px; }
+  /* line 5, /home/anton/code/um-work/assets/css/3-modules/form */
+  form input, form textarea {
+    border: 3px solid #0E183B;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px; }
+    /* line 11, /home/anton/code/um-work/assets/css/3-modules/form */
+    form input:focus, form textarea:focus {
+      outline: none;
+      border-color: #6E8DA5; }
+  /* line 15, /home/anton/code/um-work/assets/css/3-modules/form */
+  form .submit-wrap {
+    text-align: right; }
+  /* line 18, /home/anton/code/um-work/assets/css/3-modules/form */
+  form [type="submit"] {
+    background: #0E183B;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 33%; }
+    /* line 25, /home/anton/code/um-work/assets/css/3-modules/form */
+    form [type="submit"]:hover {
+      background: #6E8DA5; }
+  /* line 29, /home/anton/code/um-work/assets/css/3-modules/form */
+  form textarea {
+    height: 10em; }
+  /* line 34, /home/anton/code/um-work/assets/css/3-modules/form */
+  form .contact-info-group label {
+    width: 50%;
+    float: left;
+    box-sizing: border-box; }
+    /* line 39, /home/anton/code/um-work/assets/css/3-modules/form */
+    form .contact-info-group label:nth-child(1) {
+      padding-right: 10px; }
+    /* line 41, /home/anton/code/um-work/assets/css/3-modules/form */
+    form .contact-info-group label:nth-child(2) {
+      padding-left: 10px; }
+  /* line 44, /home/anton/code/um-work/assets/css/3-modules/form */
+  form label {
+    display: block;
+    margin-bottom: 20px; }
+    /* line 48, /home/anton/code/um-work/assets/css/3-modules/form */
+    form label span {
+      display: block; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/footer */
+footer {
+  background-image: url(/assets/img/logo.svg), url(../img/bg.jpg); }
+  /* line 5, /home/anton/code/um-work/assets/css/3-modules/footer */
+  footer .lockup {
+    padding: 30px 30px; }
+    /* line 15, /home/anton/code/um-work/assets/css/1-tools/bourbon/addons/clearfix */
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 9, /home/anton/code/um-work/assets/css/3-modules/footer */
+    footer .lockup .content-wrap {
+      float: left;
+      margin-left: 30px; }
+      /* line 13, /home/anton/code/um-work/assets/css/3-modules/footer */
+      footer .lockup .content-wrap .copyright {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.9); }
+      /* line 19, /home/anton/code/um-work/assets/css/3-modules/footer */
+      footer .lockup .content-wrap a {
+        color: rgba(255, 255, 255, 0.8);
+        display: inline-block;
+        margin-right: 30px; }
+        /* line 26, /home/anton/code/um-work/assets/css/3-modules/footer */
+        footer .lockup .content-wrap a:hover {
+          color: white; }
+
+/* line 29, /home/anton/code/um-work/assets/css/3-modules/footer */
+.icons {
+  margin-right: 30px;
+  text-align: center;
+  float: right; }
+
+/* line 1, /home/anton/code/um-work/assets/css/3-modules/contact */
+.section-contact {
+  text-align: center; }
+  /* line 4, /home/anton/code/um-work/assets/css/3-modules/contact */
+  .section-contact .biglink {
+    display: inline-block;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0 auto 50px; }
+  /* line 12, /home/anton/code/um-work/assets/css/3-modules/contact */
+  .section-contact .bar {
+    width: 250px;
+    height: 0px;
+    border-top: 4px solid #0E183B;
+    margin: 0px auto 50px; }
